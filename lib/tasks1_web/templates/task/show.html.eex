@@ -19,7 +19,7 @@
 
   <li>
     <strong>Worker:</strong>
-    <%= @task.worker.name %>
+    <%= if @task.worker do @task.worker.name else "Unassigned" end %>
   </li>
 
   <li>

@@ -7,7 +7,7 @@ use Mix.Config
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
 config :tasks1, Tasks1Web.Endpoint,
-  http: [port: 4000],
+  http: [port: 4794],
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
@@ -71,5 +71,5 @@ config :tasks1, Tasks1.Repo,
   username: "tasks1",
   password: "cod3typE9",
   database: "tasks1_dev",
-  hostname: "localhost",
+  hostname: "http://tasks1.the-real-ice-man.website",
   pool_size: 10

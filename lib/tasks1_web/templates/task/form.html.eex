@@ -14,7 +14,7 @@
   <%= error_tag f, :desc %>
 
   <%= label f, :duration %>
-  <%= number_input f, :duration %>
+  <%= number_input f, :duration, step: "15" %>
   <%= error_tag f, :duration %>
 
   <%= label f, :complete %>

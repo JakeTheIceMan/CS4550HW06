@@ -1,0 +1,3 @@
+add 15min limit
+add unique requirement on emails
+fix login so that a session is created

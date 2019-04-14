@@ -1,4 +1,4 @@
-<h1><%= if @current_user.id === @user.id do "My Profile" else "Show User" end%></h1>
+<h1><%= if @current_user && @current_user.id === @user.id do "My Profile" else "Show User" end%></h1>
 
 <ul>
 

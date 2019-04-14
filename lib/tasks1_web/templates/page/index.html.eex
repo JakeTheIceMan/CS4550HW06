@@ -1,5 +1,5 @@
 <section class="row">
   <article class="column">
-    <%= link "Register", to: Routes.user_path(@conn, :new) %>
+    <%= link "Register now to start tracking your work!", to: Routes.user_path(@conn, :new) %>
   </article>
 </section>
